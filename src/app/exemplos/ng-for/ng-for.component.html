@@ -1,0 +1,12 @@
+<div class="container">
+
+<ol>
+    <ng-container *ngFor="let dado of dados">
+    <li>Nome: {{ dado.nome }} <br> Idade: {{ dado.idade }} 
+        <button (click)="remove(dado)">excluir</button> 
+    </li>
+    </ng-container>
+</ol>
+
+
+</div>

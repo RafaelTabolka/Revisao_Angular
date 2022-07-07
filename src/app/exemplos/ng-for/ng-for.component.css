@@ -1,0 +1,30 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+  
+  }
+  
+  .container {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(0, 26, 26);
+    color: white;
+  }
+  
+  .container > ol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .container > ol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  } 
+  .container > ol > li {
+  padding: 3px;
+  }
