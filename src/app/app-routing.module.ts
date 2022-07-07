@@ -3,13 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path:'ngfor',
+    path:'teste',
     loadChildren: () => import("./exemplos/roteamento/roteamento.module").then((m) => m.RoteamentoModule)
   },
   {
     path:'',
     pathMatch:'full',
-    redirectTo:'ngfor'
+    redirectTo:'teste'
   }
 ];
 

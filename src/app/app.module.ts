@@ -8,11 +8,13 @@ import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgForComponent } from './exemplos/ng-for/ng-for.component';
+import { TabelaApiComponent } from './exemplos/tabela-api/tabela-api.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgForComponent
+    NgForComponent,
+    TabelaApiComponent
   ],
   imports: [
     BrowserModule,
